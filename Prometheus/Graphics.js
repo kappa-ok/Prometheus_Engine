@@ -13,6 +13,10 @@ function setupCanvas(w, h){
 
 }
 
+function clearCanvas(){
+  pencil.clearRect(0, 0, canvas.width, canvas.height);
+}
+
 class Sprite{
   
   constructor(img, x, y, width, height){
