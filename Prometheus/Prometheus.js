@@ -3,5 +3,4 @@
 function tick(){
   clearCanvas();
   Draw();
-  detectCollisions();
 }
