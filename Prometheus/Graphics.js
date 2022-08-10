@@ -30,6 +30,13 @@ class Sprite{
     
   }
   
+  attach(object){
+    this.x = object.x;
+    this.y = object.y;
+    this.w = object.w;
+    this.h = object.h;
+  }
+  
   draw(){
     pencil.drawImage(this.img, this.x, this.y, this.w, this.h);
   }
