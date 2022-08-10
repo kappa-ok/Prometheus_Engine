@@ -1,5 +1,7 @@
 //Basic functions
 
+pencil.imageSmoothingEnabled = false; //Change this dependant on artstyle
+
 function tick(){
   clearCanvas();
   Draw();

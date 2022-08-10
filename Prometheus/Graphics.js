@@ -8,8 +8,6 @@ function setupCanvas(w, h){
 	
     canvas.width = w;
     canvas.height = h;
-    
-    pencil.imageSmoothingEnabled = false; //Change this dependant on artstyle
 
 }
 
