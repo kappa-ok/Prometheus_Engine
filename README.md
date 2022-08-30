@@ -8,6 +8,8 @@ Documentation and tutorials are available [here](https://github.com/Orange-TheGa
 
 ## Update Log:
 
+## Version 1.2.1:
+Patched the tick function
 
 ### Version 1.2.0:
 Added addAudio and playSound functions
