@@ -3,12 +3,7 @@
 function tick(){
   clearCanvas();
   Draw();
-  physicsLoop();
-}
-
-function write(text, x, y){
-    pencil.font = '30px Arial';
-    pencil.fillText(text, x, y);
+  //physicsLoop();
 }
 
 function generateRandomInteger(min, max) {
