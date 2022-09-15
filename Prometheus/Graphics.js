@@ -31,18 +31,20 @@ class Sprite{
   attach(object){
     this.x = object.x;
     this.y = object.y;
-    this.w = object.w;
-    this.h = object.h;
+    object.attachedObjects.push(this);
   }
   
   draw(){
     pencil.drawImage(this.img, this.x, this.y, this.w, this.h);
   }
+
+  setSprite(image){
+    this.img = image;
+  }
   
 }
 
-function Draw(){
-  for(var i = 0; i < sprites.length; i++){
-    sprites[i].draw();
-  }
+function write(text, x, y){
+  pencil.font = '30px Arial';
+  pencil.fillText(text, x, y);
 }

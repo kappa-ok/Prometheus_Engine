@@ -1,6 +1,5 @@
 //Input
 
-//Keycodes. Yep, the're all variables. I am crying.
 backspace = 8;
 tab = 9;
 enter =	13;
